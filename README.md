@@ -24,19 +24,19 @@ In order to being using SparkSQL, a spark session was created. The home_sales da
 
 ### Query Results
 These queries will all be focused on the average price of homes based on specific criteria:
-1.  4bd:
+1.  _4bd_:
   
     *min: 2020 - 298353.78
     
     *max: 2021 - 301819.44
  
-2. 3bd, 3bath:
+2. _3bd, 3bath:_
 
     *min: 2015 - 288770.3
     
     *max: 2013 - 295962.27
  
- 3. 3bd, 3bath, 2floors, sqft >= 2000:
+ 3. _3bd, 3bath, 2floors, sqft >= 2000:_
  
     *min: 2011 - 276553.81
     
