@@ -46,6 +46,7 @@ The query is executed the fastest when the data is read through parquet. Althoug
 
 #### Percent increases in speed:
 Uncached vs Cached: ((1.089 - 0.552) / 1.089) = 49.3%
+
 Uncached vs Parquet: (0.456 - 1.089 ) / 1.089 = 58.1% 
 
 As we can see, parquet has a rather large percentage increase in speed; if translated to a dataset that is much larger, this time save can be very significant.
