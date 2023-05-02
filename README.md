@@ -29,7 +29,7 @@ These queries will all be focused on the average price of homes based on specifi
     
     
 ### Runtime Results
-The runtimes of the query as shown below
+The query as shown below will be performed using 3 different methods.
 
 ![image](https://user-images.githubusercontent.com/114107454/235789219-e5fbefba-0567-4c84-bb34-8cb0cdce4197.png)
 
@@ -41,3 +41,14 @@ The runtimes of the query as shown below
 
 *Parquet:
 --- 0.4563748836517334 seconds ---
+
+The query is executed the fastest when the data is read through parquet. Although the time saved is minimal in this case, it's important to note that this is a rather small dataset. 
+
+#### Percent increases in speed:
+Uncached vs Cached: ((1.089 - 0.552) / 1.089) = 49.3%
+Uncached vs Parquet: (0.456 - 1.089 ) / 1.089 = 58.1% 
+
+As we can see, parquet has a rather large percentage increase in speed; if translated to a dataset that is much larger, this time save can be very significant.
+
+
+
