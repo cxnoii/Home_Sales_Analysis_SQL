@@ -34,13 +34,13 @@ The query as shown below will be performed using 3 different methods.
 ![image](https://user-images.githubusercontent.com/114107454/235789219-e5fbefba-0567-4c84-bb34-8cb0cdce4197.png)
 
 * Uncached Table: 
-1.089 seconds
+1.089s
 
 * Cached Table:
-0.552 seconds
+0.552s
 
 * Parquet:
-0.456 seconds
+0.456s
 
 The query is executed the fastest when the data is read through parquet. Although the time saved is minimal in this case, it's important to note that this is a rather small dataset. 
 
