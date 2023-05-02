@@ -21,3 +21,23 @@ In order to being using SparkSQL, a spark session was created. The home_sales da
 ![image](https://user-images.githubusercontent.com/114107454/235787818-0b623342-ddd3-49db-95f2-50f6c6052ae9.png)
 
 ## Results
+
+### Query Results
+These queries will all be focused on the average price of homes based on specific criteria:
+1.  3bd, 3bath
+    *
+    
+    
+### Runtime Results
+The runtimes of the query as shown below
+
+![image](https://user-images.githubusercontent.com/114107454/235789219-e5fbefba-0567-4c84-bb34-8cb0cdce4197.png)
+
+*Uncached Table: 
+--- 1.0891053676605225 seconds ---
+
+*Cached Table:
+--- 0.5521900653839111 seconds ---
+
+*Parquet:
+--- 0.4563748836517334 seconds ---
